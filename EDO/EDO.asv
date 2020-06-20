@@ -1,0 +1,6 @@
+clear all;
+clc;
+close all;
+dy=dsolve('D3y+D2y+Dy+y=x^2+sin(x)', 'x');
+simplify(dy);
+dispL
